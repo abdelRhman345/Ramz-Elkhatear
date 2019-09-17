@@ -1,0 +1,1 @@
+$(function(){"use strict";$(".navbar .navbar-nav .nav-item").click(function(){$(this).addClass("active").siblings().removeClass("active")}),$(window).scroll(function(){80<=$(window).scrollTop()?$(".navbar").css("top",0):$(".navbar").css("top",50)})});
